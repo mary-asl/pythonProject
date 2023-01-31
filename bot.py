@@ -3,6 +3,7 @@ from dispatcher import dp
 import handlers
 
 from db import BotDB
+
 BotDB = BotDB('PetersburgTimeline.db')
 
 if __name__ == "__main__":
